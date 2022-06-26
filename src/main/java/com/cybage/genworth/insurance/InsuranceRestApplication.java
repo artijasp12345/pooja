@@ -27,7 +27,12 @@ public class InsuranceRestApplication extends SpringBootServletInitializer {
 		logger.info("Application started..");
 		SpringApplication.run(InsuranceRestApplication.class, args);
 	}
+<<<<<<< HEAD
 
+=======
+//this is test 23445
+	
+>>>>>>> 95c63e176aaa73d9b8a400cc30db40b809763566
 	@Bean
 	public WebMvcConfigurer WebMvcConfigurerAdapter() {
 		return new WebMvcConfigurerAdapter() {
